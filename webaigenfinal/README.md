@@ -34,3 +34,78 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+webaigen/
+├─ app/
+│  ├─ (marketing)/
+│  │  ├─ layout.tsx
+│  │  ├─ page.tsx
+│  │  ├─ services/
+│  │  │  └─ page.tsx
+│  │  ├─ pricing/
+│  │  │  └─ page.tsx
+│  │  ├─ contact/
+│  │  │  └─ page.tsx
+│  │  ├─ privacy/
+│  │  │  └─ page.tsx
+│  │  └─ terms/
+│  │     └─ page.tsx
+│  │
+│  ├─ (app)/
+│  │  ├─ layout.tsx
+│  │  ├─ dashboard/
+│  │  │  ├─ page.tsx
+│  │  │  ├─ loading.tsx
+│  │  │  └─ error.tsx
+│  │  └─ settings/
+│  │     └─ page.tsx
+│  │
+│  ├─ api/
+│  │  ├─ health/
+│  │  │  └─ route.ts
+│  │  └─ ai/
+│  │     ├─ chat/
+│  │     │  └─ route.ts
+│  │     └─ summarize/
+│  │        └─ route.ts
+│  │
+│  ├─ layout.tsx
+│  ├─ globals.css
+│  ├─ not-found.tsx
+│  └─ favicon.ico
+│
+├─ components/
+│  ├─ layout/
+│  │  ├─ navbar.tsx
+│  │  ├─ footer.tsx
+│  │  └─ sidebar.tsx
+│  │
+│  ├─ sections/
+│  │  ├─ hero.tsx
+│  │  ├─ features.tsx
+│  │  ├─ cta.tsx
+│  │  ├─ testimonials.tsx
+│  │  └─ index.ts
+│  │
+│  ├─ forms/
+│  │  └─ contact-form.tsx
+│  │
+│  └─ ui/
+│     ├─ container.tsx
+│     ├─ button.tsx
+│     ├─ card.tsx
+│     ├─ input.tsx
+│     ├─ textarea.tsx
+│     └─ badge.tsx
+│
+├─ public/
+│  ├─ og.png
+│  └─ logo.svg
+│
+├─ .gitignore
+├─ next.config.ts
+├─ postcss.config.mjs
+├─ tailwind.config.ts
+├─ tsconfig.json
+├─ eslint.config.mjs
+├─ package.json
+└─ README.md
